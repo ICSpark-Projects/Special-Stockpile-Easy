@@ -24,7 +24,7 @@ Include the index.html file into your workspace, either by downloading the provi
 
 <!-- In your style.css file, create a simple CSS selector for the div element. For now, we can just select a border style. -->
 
-Include the style.css file into your workspace, following the same process as with the HTML file.
+Include the style.css file into your workspace, either by downloading the file or pasting the contents.
 
 ### Part 4: Prepare the JS file
 
