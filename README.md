@@ -41,4 +41,9 @@ In your Javascript window, create an object called object1. In your new object, 
 - type
 - desc
 
-Once 
+Once you have done so, fill in each of the properties. Paste in the link for the image you want to use in front of imgsrc, and then also include text for the other properties.
+
+To check if you created your object properly, add the following under your object:
+```javascript 
+console.log
+```
