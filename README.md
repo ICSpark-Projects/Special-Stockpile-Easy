@@ -79,7 +79,10 @@ var rButton = document.getElementById("rightbutton");
 // initalize counter of current index and max count, start at first index
 var thingIndex = 0;
 /* 
-.length will return a value one larger than the value of the last index, subtract by 1 to know what the number of the last index is */
+.length will return a value one larger than the value of 
+the last index, subtract by 1 to know what the number of 
+the last index is
+*/
 var maxIndex = things.length - 1;
 
 // button functions for clicking of left and right buttons
