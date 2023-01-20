@@ -156,6 +156,6 @@ Once this code is pasted in, you should notice that the image and text belonging
 ### Bonus stage: Stretch goals
 
 Finished ahead of time? Here are some ideas of other additions and improvements you may want to try:
-- Add another button that allows you to go to the first or last item in your array, or even randomise the choice.
+- Add another button that allows you to go to the first or last item in your array, or even randomize the choice.
 - Add more objects! Go crazy!
-- Customise the HTML and the CSS file. For example, you can change the name at the top of the page, or change the color of the div. (Just be careful to not mess up anything with an id, as this prevent items to be displayed or cycled.
+- Customize the HTML and the CSS file. For example, you can change the name at the top of the page, or change the color of the div. (Just be careful to not mess up anything with an id, as this prevents items to be displayed or cycled.
