@@ -55,7 +55,7 @@ In your console, you should see the text entered in each property of the object.
 
 #### Part 4b: Creating the array
 
-Once you have your objects created, create an array to store all the objects.
+Once you have your objects created, create an array to store all the objects. We can name this array "things".
 
 As with the individual objects, you can use `console.log` to print out the contents of all the objects in the array.
 
@@ -63,7 +63,7 @@ As with the individual objects, you can use `console.log` to print out the conte
 
 To have a way to present what we had in our objects, we will make use of DOM, or Document Object Model. For the time being, just know that it allows us to modify what is on the screen (You will get to learn more next week).
 
-To see what an object contains and to change the object shown, include the following:
+To see what an object contains and to change the object shown, paste the following after your array in the Javascript file:
 
 ```javascript
 // getting elements based on the ids in the HTML file
@@ -149,3 +149,13 @@ rButton.addEventListener("click", function(){
 });
 ```
 
+In the code, we notice one data type being used. In this case, it is the `number` datatype. It is one of Javascript's primitive data types, with the `string` data types we used in our objects being another such datatype.
+
+Once this code is pasted in, you should notice that the image and text belonging to the first object are appearing in the box on the screen. If you click the buttons, you should notice that the item displayed is different after each button press. If nothing is appearing in the box, double check that the name of your array is "things". This is to make sure the DOM code has the correct array referenced. 
+
+### Bonus stage: Stretch goals
+
+Finished ahead of time? Here are some ideas of other additions and improvements you may want to try:
+- Add another button that allows you to go to the first or last item in your array, or even randomise the choice.
+- Add more objects! Go crazy!
+- Customise the HTML and the CSS file. For example, you can change the name at the top of the page, or change the color of the div. (Just be careful to not mess up anything with an id, as this prevent items to be displayed or cycled.
