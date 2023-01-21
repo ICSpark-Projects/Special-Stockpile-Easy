@@ -1,13 +1,13 @@
-# ICSpark Mentor Project: Data Types, Arrays, Objects
+# Special Stockpile
 
-A simple demonstration project making use of objects, arrays, and data types such as numbers. In this project, we will create a simple showcase of things you like.
+A simple project where you get to show your favorite things, and where you get to apply what you learned about data types, arrays, and objects in Javascript.
 
-### Part 1: Initial file setup
+## Part 1: Initial file setup
 
 Create your JS file:
 - app.js
 
-### Part 2: Prepare the HTML file
+## Part 2: Prepare the HTML file
 
 <!-- In your index.html file, create a div in the body that includes the following elements (header titles do not have to be identical, but this is a starting point):
 - img with an id like "visual" or another similar id
@@ -20,19 +20,19 @@ Outside of the div you just made, create two buttons containing the text "left" 
 
 Include the index.html file into your workspace, either by downloading the provided file or pasting the contents into the HTML window if on CodePen.
 
-### Part 3: Prepare the CSS file
+## Part 3: Prepare the CSS file
 
 <!-- In your style.css file, create a simple CSS selector for the div element. For now, we can just select a border style. -->
 
 Include the style.css file into your workspace, either by downloading the file or pasting the contents.
 
-### Part 4: Prepare the JS file
+## Part 4: Prepare the JS file
 
 This is where you can apply what you learned about objects, arrays, and data types. 
 
 First we will start with the objects:
 
-#### Part 4a: Creating objects
+### Part 4a: Creating objects
 
 First, think of a category of objects you like. For example, you can pick your favorite foods.
 
@@ -53,13 +53,13 @@ console.log(object1);
 
 In your console, you should see the text entered in each property of the object. Once you feel satisfied with this first object, make at least two more objects with the same properties as the first one. You may want to name these objects in a similar way to the first one, such as "object2", "object3", and so forth. Use the other objects to represent other things you like. You can print out the other objects to check if you set them up correctly by changing "object1" in the console.log shown earlier.
 
-#### Part 4b: Creating the array
+### Part 4b: Creating the array
 
 Once you have your objects created, create an array to store all the objects. We can name this array "things".
 
 As with the individual objects, you can use `console.log` to print out the contents of all the objects in the array.
 
-### Part 5: DOM magic
+## Part 5: DOM magic
 
 To have a way to present what we had in our objects, we will make use of DOM, or Document Object Model. For the time being, just know that it allows us to modify what is on the screen (You will get to learn more next week).
 
@@ -153,7 +153,7 @@ In the code, we notice one data type being used. In this case, it is the `number
 
 Once this code is pasted in, you should notice that the image and text belonging to the first object are appearing in the box on the screen. If you click the buttons, you should notice that the item displayed is different after each button press. If nothing is appearing in the box, double check that the name of your array is "things". This is to make sure the DOM code has the correct array referenced. 
 
-### Bonus stage: Stretch goals
+## Bonus stage: Stretch goals
 
 Finished ahead of time? Here are some ideas of other additions and improvements you may want to try:
 - Add another button that allows you to go to the first or last item in your array, or even randomize the choice.
