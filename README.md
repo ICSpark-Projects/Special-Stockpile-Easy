@@ -74,7 +74,30 @@ In your console, you should see the text entered in each property of the object.
 ```
 
 
-Once you feel satisfied with this first object, make at least two more objects with the same properties as the first one. You may want to name these objects in a similar way to the first one, such as "object2", "object3", and so forth. Use the other objects to represent other things you like. You can print out the other objects to check if you set them up correctly by changing "object1" in the console.log shown earlier.
+Once you feel satisfied with this first object, make at least two more objects with the same properties as the first one. You may want to name these objects in a similar way to the first one, such as "object2", "object3", and so forth. Use the other objects to represent other things you like. You can print out the other objects to check if you set them up correctly by changing "object1" in the console.log shown earlier. For example, it can look like this:
+
+```javascript
+// [object Array] (3)
+[// [object Object]
+{
+  imgsrc: "https://wiki.teamfortress.com/w/images/thumb/b/bc/GoldenFryingPan.png/250px-GoldenFryingPan.png",
+  name: "Golden Frying Pan",
+  type: "Pan",
+  desc: "pan but golden"
+},// [object Object]
+{
+  imgsrc: "https://i.ebayimg.com/images/g/FqkAAOSwOyRgsMe8/s-l640.jpg",
+  name: "Sakuya Izayoi fumo",
+  type: "fumo",
+  desc: "funni meido"
+},// [object Object]
+{
+  imgsrc: "https://static.tvtropes.org/pmwiki/pub/images/fotoacecombatzero_thebelkanwarjapons.jpg",
+  name: "Ace Combat Zero: The Belkan War",
+  type: "game",
+  desc: "cool and epic video game"
+}]
+```
 
 ### Part 4b: Creating the array
 
