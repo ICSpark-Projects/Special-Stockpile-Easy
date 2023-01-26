@@ -205,3 +205,7 @@ Finished ahead of time? Here are some ideas of other additions and improvements 
 - Add another button that allows you to go to the first or last item in your array, or even randomize the choice.
 - Add more objects! Go crazy!
 - Customize the HTML and the CSS file. For example, you can change the name at the top of the page, or change the color of the div. (Just be careful to not mess up anything with an id, as this prevents items to be displayed or cycled.
+
+## References
+[https://www.w3schools.com/js/js_object_definition.asp](https://www.w3schools.com/js/js_object_definition.asp)
+[https://www.w3schools.com/js/js_arrays.asp](https://www.w3schools.com/js/js_arrays.asp)
