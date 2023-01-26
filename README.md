@@ -43,6 +43,16 @@ In your Javascript window, create an object called object1. In your new object, 
 - type
 - desc
 
+Here is an example of an object:
+```javascript
+var object3 = {
+  imgsrc: "https://static.tvtropes.org/pmwiki/pub/images/fotoacecombatzero_thebelkanwarjapons.jpg",
+  name: "Ace Combat Zero: The Belkan War",
+  type: "game",
+  desc: "cool and epic video game"
+}
+```
+
 Once you have done so, fill in each of the properties. Paste in the link for the image you want to use in front of imgsrc, and then also include text for the other properties.
 
 To check if you created your object properly, add the following under your object:
@@ -51,7 +61,20 @@ To check if you created your object properly, add the following under your objec
 console.log(object1);
 ```
 
-In your console, you should see the text entered in each property of the object. Once you feel satisfied with this first object, make at least two more objects with the same properties as the first one. You may want to name these objects in a similar way to the first one, such as "object2", "object3", and so forth. Use the other objects to represent other things you like. You can print out the other objects to check if you set them up correctly by changing "object1" in the console.log shown earlier.
+In your console, you should see the text entered in each property of the object. For example, if we do this with our placeholder object, you should see something like this:
+
+```javascript
+// [object Object]
+{
+  imgsrc: "https://static.tvtropes.org/pmwiki/pub/images/fotoacecombatzero_thebelkanwarjapons.jpg",
+  name: "Ace Combat Zero: The Belkan War",
+  type: "game",
+  desc: "cool and epic video game"
+}
+```
+
+
+Once you feel satisfied with this first object, make at least two more objects with the same properties as the first one. You may want to name these objects in a similar way to the first one, such as "object2", "object3", and so forth. Use the other objects to represent other things you like. You can print out the other objects to check if you set them up correctly by changing "object1" in the console.log shown earlier.
 
 ### Part 4b: Creating the array
 
