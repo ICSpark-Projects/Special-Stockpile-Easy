@@ -81,8 +81,41 @@ In your console, you should see the text entered in each property of the object.
 ```
 
 
-Once you feel satisfied with this first object, make at least two more objects with the same properties as the first one. You may want to name these objects in a similar way to the first one, such as "object2", "object3", and so forth. Use the other objects to represent other things you like. You can print out the other objects to check if you set them up correctly by changing "object1" in the console.log shown earlier. For example, it can look like this:
+Once you feel satisfied with this first object, make at least two more objects with the same properties as the first one. You may want to name these objects in a similar way to the first one, such as "object2", "object3", and so forth. Use the other objects to represent other things you like. You can print out the other objects to check if you set them up correctly by changing "object1" in the console.log shown earlier. For example, making a print for each object will look like this:
 
+```javascript
+// [object Object]
+{
+  imgsrc: "https://wiki.teamfortress.com/w/images/thumb/b/bc/GoldenFryingPan.png/250px-GoldenFryingPan.png",
+  name: "Golden Frying Pan",
+  type: "Pan",
+  desc: "pan but golden"
+}
+// [object Object]
+{
+  imgsrc: "https://i.ebayimg.com/images/g/FqkAAOSwOyRgsMe8/s-l640.jpg",
+  name: "Sakuya Izayoi fumo",
+  type: "fumo",
+  desc: "funni meido"
+}
+// [object Object]
+{
+  imgsrc: "https://static.tvtropes.org/pmwiki/pub/images/fotoacecombatzero_thebelkanwarjapons.jpg",
+  name: "Ace Combat Zero: The Belkan War",
+  type: "game",
+  desc: "cool and epic video game"
+}]
+```
+
+
+<!--
+### Part 4b: Creating the array -->
+
+### Part 2b: Creating the array
+
+Once you have your objects created, create an array to store all the objects. We can name this array "things".
+
+As with the individual objects, you can use `console.log` to print out the contents of all the objects in the array. It should look something like this:
 ```javascript
 // [object Array] (3)
 [// [object Object]
@@ -105,14 +138,7 @@ Once you feel satisfied with this first object, make at least two more objects w
   desc: "cool and epic video game"
 }]
 ```
-<!--
-### Part 4b: Creating the array -->
 
-### Part 2b: Creating the array
-
-Once you have your objects created, create an array to store all the objects. We can name this array "things".
-
-As with the individual objects, you can use `console.log` to print out the contents of all the objects in the array.
 <!--
 ## Part 5: DOM magic -->
 
