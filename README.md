@@ -1,13 +1,15 @@
-# Special Stockpile
+# Special Stockpile (easy)
 
 A simple project where you get to show your favorite things, and where you get to apply what you learned about data types, arrays, and objects in Javascript.
 
-## Part 1: Initial file setup
+## Part 1: Initial file setup, HTML and CSS
 
-Create your JS file:
-- app.js
+Create your files:
+- script.js
+- index.html (provided)
+- style.css (provided)
 
-## Part 2: Prepare the HTML file
+<!-- ## Part 2: Prepare the HTML file -->
 
 <!-- In your index.html file, create a div in the body that includes the following elements (header titles do not have to be identical, but this is a starting point):
 - img with an id like "visual" or another similar id
@@ -16,23 +18,28 @@ Create your JS file:
 - a header with "type:"
 - a p with the id "desc"
 
-Outside of the div you just made, create two buttons containing the text "left" and "right" respectively. As with some of the elements in the div, include an id for each one (i.e. "left-button" for the left one, and "right-button" for the one on the right. The buttons can either come before or after the div. -->
+Outside of the div you just made, create two buttons containing the text "left" and "right" respectively. As with some of the elements in the div, include an id for each one (i.e. "left-button" for the left one, and "right-button" for the one on the right. The buttons can either come before or after the div.) -->
 
-Include the index.html file into your workspace, either by downloading the provided file or pasting the contents into the HTML window if on CodePen.
+Take a chance to read through and understand the provided HTML and CSS code, and ask your mentor(s) questions on anything that doesn't make sense.
 
-## Part 3: Prepare the CSS file
+<!-- ## Part 3: Prepare the CSS file
 
-<!-- In your style.css file, create a simple CSS selector for the div element. For now, we can just select a border style. -->
+In your style.css file, create a simple CSS selector for the div element. For now, we can just select a border style. 
 
-Include the style.css file into your workspace, either by downloading the file or pasting the contents.
+Include the style.css file into your workspace, either by downloading the file or pasting the contents. 
 
-## Part 4: Prepare the JS file
+## Part 4: Prepare the JS file -->
+
+## Part 2:
 
 This is where you can apply what you learned about objects, arrays, and data types. 
 
 First we will start with the objects:
 
-### Part 4a: Creating objects
+<!--
+### Part 4a: Creating objects -->
+
+### Part 2a: Creating objects
 
 First, think of a category of objects you like. For example, you can pick your favorite foods.
 
@@ -98,14 +105,18 @@ Once you feel satisfied with this first object, make at least two more objects w
   desc: "cool and epic video game"
 }]
 ```
+<!--
+### Part 4b: Creating the array -->
 
-### Part 4b: Creating the array
+### Part 2b: Creating the array
 
 Once you have your objects created, create an array to store all the objects. We can name this array "things".
 
 As with the individual objects, you can use `console.log` to print out the contents of all the objects in the array.
+<!--
+## Part 5: DOM magic -->
 
-## Part 5: DOM magic
+## Part 3: DOM magic
 
 To have a way to present what we had in our objects, we will make use of DOM, or Document Object Model. For the time being, just know that it allows us to modify what is on the screen (You will get to learn more next week).
 
@@ -203,6 +214,7 @@ Once this code is pasted in, you should notice that the image and text belonging
 
 Finished ahead of time? Here are some ideas of other additions and improvements you may want to try:
 - For those that want to try what's coming next, add another button that allows you to go to the first or last item in your array, or even randomize the choice. This can help you get an understanding of how the DOM content works: [https://www.w3schools.com/js/js_htmldom_document.asp](https://www.w3schools.com/js/js_htmldom_document.asp)
+- Add an input field to pick which numbered entry to access (refer to your work on last week's tip calculator).
 - Add more objects! Go crazy!
 - Customize the HTML and the CSS file. For example, you can change the name at the top of the page, or change the color of the div. (Just be careful to not mess up anything with an id, as this prevents items to be displayed or cycled.
 
