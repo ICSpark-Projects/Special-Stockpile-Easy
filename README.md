@@ -2,6 +2,9 @@
 
 A simple project where you get to show your favorite things, and where you get to apply what you learned about data types, arrays, and objects in Javascript.
 
+## Example screenshot:
+![example screenshot](special_stockpile_example.PNG)
+
 ## Part 1: Initial file setup, HTML and CSS
 
 Create your files:
