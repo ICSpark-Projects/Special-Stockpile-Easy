@@ -63,12 +63,12 @@ var object3 = {
 }
 ```
 
-Once you have done so, fill in each of the properties. Paste in the link for the image you want to use in front of imgsrc, and then also include text for the other properties.
+Once you have done so, fill in each of the properties. Paste in the link for the image you want to use in front of imgsrc, and then include String texts for the other properties.
 
-To check if you created your object properly, add the following under your object:
+To check if you created your object properly, add the following under your object and run:
 
 ```javascript 
-console.log(object1);
+console.log(object3);
 ```
 
 In your console, you should see the text entered in each property of the object. For example, if we do this with our placeholder object, you should see something like this:
@@ -84,7 +84,7 @@ In your console, you should see the text entered in each property of the object.
 ```
 
 
-Once you feel satisfied with this first object, make at least two more objects with the same properties as the first one. You may want to name these objects in a similar way to the first one, such as "object2", "object3", and so forth. Use the other objects to represent other things you like. You can print out the other objects to check if you set them up correctly by changing "object1" in the console.log shown earlier. For example, making a print for each object will look like this:
+Once you feel satisfied with this first object, make at least two more objects with the same properties as the first one. You may want to name these objects in a similar way to the first one, such as "object2", "object3", and so forth. Use the other objects to represent other things you like. You can print out the other objects to check if you set them up correctly by changing "object3" in the `console.log` shown earlier. For example, making a print for each object will look like this:
 
 ```javascript
 // [object Object]
@@ -118,7 +118,7 @@ Once you feel satisfied with this first object, make at least two more objects w
 
 Once you have your objects created, create an array to store all the objects. We can name this array "things".
 
-As with the individual objects, you can use `console.log` to print out the contents of all the objects in the array. It should look something like this:
+Similar to individual objects, use `console.log(things);` to print all the objects in the array. It should look something like this:
 ```javascript
 // [object Array] (3)
 [// [object Object]
@@ -149,7 +149,7 @@ As with the individual objects, you can use `console.log` to print out the conte
 
 To have a way to present what we had in our objects, we will make use of DOM, or Document Object Model. For the time being, just know that it allows us to modify what is on the screen (You will get to learn more next week).
 
-To see what an object contains and to change the object shown, paste the following after your array in the Javascript file:
+To see what an object contains and to change the object shown, paste the following after your array named things:
 
 ```javascript
 // getting elements based on the ids in the HTML file
